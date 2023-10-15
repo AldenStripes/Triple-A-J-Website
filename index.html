@@ -2,10 +2,43 @@
 <html>
     <head>
         <title>Triple-A J Website</title>
-        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="styles/general.css">
         <script src="index.js"></script>
     </head>
     <body>
-        
+        <h1>Example Form</h1>
+        <div class="form-container">
+        <div class="form">
+            <form action="form_page.php" method="GET">
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="First, Last" required>  
+            </div>
+            <br>
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>  
+            </div>
+            <br>
+            <div>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Click to add text" required>  
+            </div>
+            <br>
+            <div>
+                <label for="comment">Any Comments?</label>
+                <input type="text" id="comment" name="comment" placeholder="Click to add text" required>  
+            </div>
+            <br>
+            <div class="reset-submit-buttons">
+                <div>
+                <input type="reset">
+                </div>
+                <div>
+                <input type="submit">
+                </div>
+            </div>
+            </form>
+        </div>
     </body>
 </html>
