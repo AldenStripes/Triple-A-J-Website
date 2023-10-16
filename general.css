@@ -1,0 +1,23 @@
+body {
+    background-color: #f87e04c2;
+    font-family: Verdana;
+    text-align: center;
+}
+button {
+    background-color: #c43505;
+    border: 1px solid #777;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+button:active {
+    opacity: 0.5;
+}
